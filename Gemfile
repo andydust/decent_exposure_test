@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'decent_exposure', path: '~/hashrocket/decent_exposure'
+gem 'decent_exposure'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
