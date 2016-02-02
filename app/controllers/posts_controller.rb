@@ -4,6 +4,6 @@ class PostsController < ApplicationController
 
   def index
     puts post.inspect
-    raise 'hi'
+    a_type_or_such_that_causes_a_NameError
   end
 end
